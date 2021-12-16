@@ -640,7 +640,8 @@ filter: invert(100%);
         flex-direction: column;
     }
     button.btn.btn-primary{
-        margin-left: -1rem;
+        margin-left: 0rem;
+     padding: 0.8rem 1rem;
     }
     .logo-creative{
         width:90%;
