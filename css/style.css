@@ -693,13 +693,19 @@ filter: invert(100%);
     .section-heading +p{
         margin-bottom: 3rem;
     }
-    section.work.card-wrapper{
+    section.work .card-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
-    section.contact.card-wrapper{
+    section.contact .card-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
-    section.contact.input-wrap{
+    section.contact .input-wrap{
         grid-template-columns: repeat(1,1fr);
+    }
+ #arrow{
+        
+        margin-left: 90%;
+        margin-top: 80%;
+        
     }
 }
