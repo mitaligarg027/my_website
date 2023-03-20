@@ -11,21 +11,21 @@ let hamberger = document.querySelector('.hamberger');
 let times = document.querySelector('.times');
 let abcd = document.querySelector('.mobile-nav');
 let mobileNav = document.querySelector('.mobile-nav');
-let alerts = document.querySelector('.alerts');
+// let alerts = document.querySelector('.alerts');
 
-alerts.addEventListener('click',function()
-{
-    let delet = confirm("Do you really want to submit message?");
-    console.log(delet);
-    if(delet)
-    {
-        alert("successfully submitted");
-    }
-    else{
-        alert("Retry");
-    }
+// alerts.addEventListener('click',function()
+// {
+//     let delet = confirm("Do you really want to submit message?");
+//     console.log(delet);
+//     if(delet)
+//     {
+//         alert("successfully submitted");
+//     }
+//     else{
+//         alert("Retry");
+//     }
     
-})
+// })
 
 
 
